@@ -2,7 +2,7 @@ import sys
 from PyQt5.QtWidgets import QApplication
 from PyQt5 import QtCore  # 新增这行，导入QtCore模块
 from ui_module import main_ui
-from device_manager import SerialThread
+from ch340_device_manager import SerialThread
 
 
 class MainApp:
